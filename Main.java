@@ -17,7 +17,7 @@ class Tv {
         return "Телевизор: " + model + ", диагональ: " + size + "\", громкость: " + volume;
     }
 }
-class App { //Создаем класс App в котором и создадим при помощи сканнера экземпляр класса
+class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
