@@ -27,7 +27,7 @@ class App { //Создаем класс App в котором и создади�
         System.out.print("Введите диагональ (дюймы): ");
         double manualSize = scanner.nextDouble();
 
-        System.out.print("Введите громкdость (0-100): ");
+        System.out.print("Введите громкость (0-100): ");
         int manualVolume = scanner.nextInt();
 
         Tv manualTv = new Tv(manualModel, manualSize, manualVolume);
